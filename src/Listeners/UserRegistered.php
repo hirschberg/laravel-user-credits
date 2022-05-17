@@ -1,11 +1,11 @@
 <?php
 
-namespace Iamjaime\Credits\Listeners;
+namespace Hirschberg\Credits\Listeners;
 
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-use Iamjaime\Credits\Models\UserCredit as Credit;
+use Hirschberg\Credits\Models\UserCredit as Credit;
 
 class UserRegistered
 {
