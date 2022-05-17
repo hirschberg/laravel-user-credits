@@ -1,6 +1,6 @@
 <?php
 
-namespace Iamjaime\Credits\Models;
+namespace Hirschberg\Credits\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

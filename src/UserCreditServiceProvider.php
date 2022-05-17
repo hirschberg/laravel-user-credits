@@ -1,6 +1,6 @@
 <?php
 
-namespace Iamjaime\Credits;
+namespace Hirschberg\Credits;
 
 use Illuminate\Support\ServiceProvider;
 

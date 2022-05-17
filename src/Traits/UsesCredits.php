@@ -1,7 +1,7 @@
 <?php
-namespace Iamjaime\Credits\Traits;
+namespace Hirschberg\Credits\Traits;
 
-use Iamjaime\Credits\Models\UserCredit as Credit;
+use Hirschberg\Credits\Models\UserCredit as Credit;
 
 trait UsesCredits
 {
@@ -12,7 +12,7 @@ trait UsesCredits
      */
     public function credit()
     {
-        return $this->hasOne('Iamjaime\Credits\Models\UserCredit', 'user_id');
+        return $this->hasOne('Hirschberg\Credits\Models\UserCredit', 'user_id');
     }
 
 
