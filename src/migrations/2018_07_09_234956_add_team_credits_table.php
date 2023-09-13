@@ -17,7 +17,7 @@ class AddTeamCreditsTable extends Migration
             $table->increments('id');
 
             //Foreign Key Referencing the id on the users table.
-            $table->integer('team_id')->unsigned();
+            $table->bigInteger('team_id')->unsigned();
             $table->foreign('team_id')->references('id')->on('teams')->onDelete('cascade');
 
             $table->integer('amount')->default(0); //credit amount
